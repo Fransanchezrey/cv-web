@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Francisco Javier Sánchez Rey</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="myscript.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Francisco Javier Sánchez Rey</h1>
+        <h2>Desarrollador Web</h2>
+    </header>
+    <div class="container">
+        <!-- Columna Izquierda: Habilidades -->
+        <div class="column" id="habilidades-container">
+            <h3>Habilidades</h3>
+            <ul>
+                <li onclick="mostrarDescripcion(this)">HTML5, CSS3, JavaScript
+                    <span class="descripcion">Experiencia en desarrollo web con estas tecnologías.</span>
+                </li>
+                <li onclick="mostrarDescripcion(this)">Java, PHP y SQL
+                    <span class="descripcion">Desarrollo backend y gestión de bases de datos.</span>
+                </li>
+                <li onclick="mostrarDescripcion(this)">Python
+                    <span class="descripcion">Aprendí los fundamentos de programación con Python. Cuando decidí iniciarme en este campo, investigué qué lenguajes tenían más proyección y aplicación en inteligencia artificial.</span>
+                </li>
+                <li onclick="mostrarDescripcion(this)">Git y GitHub
+                    <span class="descripcion">Control de versiones y colaboración en equipo.</span>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Columna Central: Foto y Sobre mí -->
+        <div class="column" id="sobre-mi-container">
+            <div id="foto">
+                <img src="foto.jpg" alt="Tu foto">
+            </div>
+            <div id="sobre-mi" onclick="mostrarDescripcion(this)">
+                <h3>Sobre mí</h3>
+                <span class="descripcion">
+                    Desarrollador web con pasión por las matemáticas y la lógica de programación. Cuento con experiencia
+                    en HTML, CSS, JavaScript, Java, SQL y PHP debido a mis estudios en Desarrollo Web. Mi formación en
+                    Ingeniería Mecánica me ha dotado de una mentalidad estructurada y resolutiva. Busco seguir aprendiendo
+                    en áreas como inteligencia artificial y análisis de datos.
+
+                </span>
+            </div>
+        </div>
+
+        <!-- Columna Derecha: Estudios -->
+        <div class="column" id="estudios-container">
+            <h3>Estudios</h3>
+            <ul>
+                <li onclick="mostrarDescripcion(this)">FP Desarrollo de Aplicaciones Web
+                    <span class="descripcion">Este curso me ha permitido conectar y aplicar los conocimientos previos
+                        de programación para comprender en profundidad el desarrollo web,
+                        desde la lógica del backend hasta la estructura y diseño del frontend.</span>
+                </li>
+                <li onclick="mostrarDescripcion(this)"> Grado en Ingeniería Mecánica - Universitat Politécnica de Valencia
+                    <span class="descripcion">Completé tres de los cuatro años del grado en Ingeniería Mecánica, donde
+                        desarrollé una sólida base en matemáticas y física, áreas que despertaron
+                        mi interés. Con el tiempo, descubrí que mi vocación iba más allá del
+                        ámbito industrial y decidí orientar mi camino hacia la tecnología.
+                        </span>
+                </li>
+                <li onclick="mostrarDescripcion(this)"> Diseño de Productos Interactivos - UTAD
+                    <span class="descripcion">Este curso marcó mis primeros pasos en el ámbito tecnológico,
+                        explorando el diseño de videojuegos, una de mis pasiones. A través de
+                        esta experiencia, descubrí mi interés por la programación.
+                        </span>
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="column" id="laboral-container">
+                <h3>Experiencia Laboral</h3>
+                <ul>
+                    <li onclick="mostrarDescripcion(this)">CrossFit Coach - Alicante
+                        <span class="descripcion">Dirigiendo clases de 10 a 20 personas. Esta experiencia me ha permitido
+                            desarrollar habilidades de liderazgo, comunicación y gestión de grupos,
+                            además de mejorar mi fluidez en inglés al interactuar con clientes
+                            internacionales.
+                            </span>
+                    </li>
+                    <li onclick="mostrarDescripcion(this)"> Profesor de Matemáticas - Alicante
+                        <span class="descripcion">Aprovechando mi pasión por las matemáticas, comencé a impartir clases
+                            particulares a estudiantes de ESO y Bachillerato. Para reforzar mis
+                            conocimientos, continué formándome y llegué a matricularme en
+                            asignaturas sueltas del grado de Matemáticas en la UNED.
+                            </span>
+                    </li>
+                </ul>
+        </div>
+    </div>
+</body>
+</html>
