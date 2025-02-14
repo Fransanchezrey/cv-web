@@ -19,6 +19,10 @@ body {
     justify-content: flex-start;
     align-items: center;
     height: 100vh;
+    background-image: url('images/tu-imagen.png'); /* Ruta a tu imagen */
+    background-size: cover; /* Ajusta la imagen para que cubra toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
 }
 
 .container {
