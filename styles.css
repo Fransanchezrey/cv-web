@@ -78,6 +78,12 @@ body {
     transition: transform 0.3s ease-in-out;
 }
 
+.sobre-mi:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
 #sobre-mi:hover {
     transform: scale(1.05);
 }
