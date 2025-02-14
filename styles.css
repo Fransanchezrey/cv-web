@@ -79,8 +79,8 @@ body {
 }
 
 #sobre-mi:hover {
-    transform: scale(1.05);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    background-color: #4b4b4b;
+    transform: translateY(-5px);
 }
 
 .descripcion {
